@@ -428,7 +428,7 @@ export default function App() {
                 <video
                   className="mascot-video"
                   autoPlay loop muted playsInline
-                  src="/assets/mascot-video.mp4"
+                  src={`${import.meta.env.BASE_URL}assets/mascot-video.mp4`}
                 />
               </div>
             </div>
